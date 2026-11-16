@@ -144,6 +144,7 @@ For shared history, use one surface at a time for the same conversation: avoid s
 | Switching providers appears ineffective in an old conversation | Install this branch's current build, reload DeepShian, reopen the conversation, and choose the intended provider there. Changing only the deployment default does not update an existing session. |
 | Long thinking text appears | Turn off **Show thinking**. Reasoning mixed into the answer body indicates an older bridge or build; check the installed files. |
 | A saved conversation appears empty | Use the patched bridge and reopen the session. The underlying conversation need not be deleted. |
+| Native edits work, but PowerShell cannot write or delete a file on Windows | Check the latest error, session mode, and target path, then compare access under the real Harness sandbox. See [Windows file access](docs/windows-file-access.md). |
 | The patch disappears after an update | A community-store update can replace the installed files. Rebuild the patch branch or check whether the upstream update already contains the fix. |
 
 ## Where data goes
